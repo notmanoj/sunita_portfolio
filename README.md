@@ -7,6 +7,3 @@ A personal portfolio website showcasing my projects and research work.
 
 ## Live Demo
 [View Here](https://sunitagurung.netlify.app)
-
-## Screenshots
-![Homepage](images/homepage.png)
