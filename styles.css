@@ -17,6 +17,10 @@ h2{
     font-size: 20px;
     font-weight: 400;
 }
+h3{
+    font-size: 24px;
+    font-weight: 500;
+}
 
 a {
     color: initial; /* resets to browser default */
@@ -89,6 +93,7 @@ ul{
     flex-direction: column;
     align-items: center;
     gap: 12px; /* Space between profile picture and name */
+    margin-top: 40px;
 }
 
 .profile-pic{
@@ -102,11 +107,12 @@ ul{
     flex-direction: column;
     align-items: center;
 }
-form{
+.subscribe form{
     display: flex;
     gap: 8px;
     width: 100%;
     max-width: 526px;
+    margin: 0 auto;   
 }
 
 .form{
@@ -184,6 +190,26 @@ form{
     margin-top: 24px;
 }
 
+.message{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.thank-you-img{
+    width: 72px;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.back-button{
+       max-width: 200px;
+       margin-top: 24px;
+}
+
+.thank-you-message{
+    margin-bottom: 4px;
+}
 
 @media(max-width: 800px){
     body{
